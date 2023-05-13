@@ -1,0 +1,25 @@
+{
+  "name": "pdf2tree",
+  "version": "0.1.0",
+  "description": "Parse PDF and group elements based on enclosing lines.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jogemu/pdf2tree.git"
+  },
+  "keywords": [
+    "pdf",
+    "parse",
+    "table"
+  ],
+  "author": "jogemu",
+  "license": "UNLICENSED",
+  "type": "module",
+  "dependencies": {
+    "pdf2json": "^3.0.3"
+  },
+  "bugs": {
+    "url": "https://github.com/jogemu/pdf2tree/issues"
+  },
+  "homepage": "https://github.com/jogemu/pdf2tree#readme"
+}
