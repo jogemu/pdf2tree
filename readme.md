@@ -55,8 +55,8 @@ The promise returns a JSON object as documented in [pdf2json](https://github.com
                     [ <I> ],
                   ],
                 ],
-                [ <J>],
-                [ <K>]
+                [ <J> ],
+                [ <K> ]
               ],
               <?>
             ]
@@ -93,4 +93,4 @@ For content structured like this:
     |   | K |       |
     +---+---+-------+
 
-If a cell is not rectangular or merges rows that the cell to the left did not also merge are not supported. This would require a data structure that allows traversing the neighborhood with `.right` or `.below` and can include loops for non-rectangular areas. It should be easier to fix those special cases after the parsing.
+If a cell is not rectangular or merges rows that the cell to the left did not also merge then the resulting tree might contain errors. This would require a data structure that allows traversing the neighborhood with `.right` or `.below` and can include loops for non-rectangular areas. It should be easier to fix those special cases after the parsing.
