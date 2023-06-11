@@ -35,7 +35,7 @@ The promise returns a JSON object as documented in [pdf2json](https://github.com
               <Y>,
               [
                 [ <5>, <6>, <7> ],
-                [ <8>, <9> ],
+                [ <8>, <9> ]
               ]
             ]
           ]
@@ -52,13 +52,12 @@ The promise returns a JSON object as documented in [pdf2json](https://github.com
                   <G>,
                   [
                     [ <H> ],
-                    [ <I> ],
-                  ],
+                    [ <I> ]
+                  ]
                 ],
-                [ <J> ],
-                [ <K> ]
-              ],
-              <?>
+                [ <J>, <?> ],
+                [ <K>, <?> ]
+              ]
             ]
           ]
         ]
